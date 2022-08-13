@@ -2,6 +2,14 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "build": "npm-run-all clean tsc",
+    "clean": "rimraf dist",
+    "nodemon": "nodemon --watch dist",
+    "start": "node dist/index.js",
+    "dev": "npm-run-all build --parallel tsc:watch nodemon",
+    "bs": "npm-run-all build start",
+    "test": "",
+    "tsc": "tsc",
+    "tsc:watch": "tsc --watch"
+  },
 }
