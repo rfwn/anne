@@ -1,4 +1,3 @@
-import { LevelModel } from './levels/levels.model';
 import Client from '../structures/Client';
 import db from 'mongoose';
 
