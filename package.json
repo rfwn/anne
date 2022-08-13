@@ -12,4 +12,20 @@
     "tsc": "tsc",
     "tsc:watch": "tsc --watch"
   },
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "@types/mongoose": "^5.11.97",
+    "discord.js": "^14.1.2",
+    "mongoose": "^6.5.1",
+    "tslog": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
 }
